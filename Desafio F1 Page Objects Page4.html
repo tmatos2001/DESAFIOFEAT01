@@ -3,7 +3,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head profile="http://selenium-ide.openqa.org/profiles/test-case">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<link rel="selenium.base" href="https://www.walmart.com.br/" />
+<link rel="selenium.base" href="https://www2.walmart.com.br/checkout/content/carrinho/" />
 <title>Parte 1</title>
 </head>
 <body>
@@ -12,59 +12,14 @@
 <tr><td rowspan="1" colspan="3">Parte 1</td></tr>
 </thead><tbody>
 <tr>
-	<td>open</td>
-	<td>/?utmi_p=wm-desktop/header&amp;utmi_cp=linkheader_logo_walmart_pos-0</td>
-	<td></td>
-</tr>
-<tr>
-	<td>type</td>
-	<td>id=suggestion-search</td>
-	<td>tv</td>
-</tr>
-<tr>
-	<td>clickAndWait</td>
-	<td>css=button.search-icon</td>
-	<td></td>
-</tr>
-<tr>
-	<td>verifyText</td>
-	<td>css=h1.search-title</td>
-	<td>Resultados de busca para &quot;tv&quot;</td>
-</tr>
-<tr>
-	<td>clickAndWait</td>
-	<td>css=span.product-title</td>
-	<td></td>
-</tr>
-<tr>
-	<td>verifyText</td>
-	<td>css=h1.product-name</td>
-	<td>Smart TV LED HD 32&quot; LG 32LJ600B com Conversor Digital 2 HDMI 1 USB WebOS 3.5 Wi-Fi Integrado</td>
-</tr>
-<tr>
-	<td>clickAndWait</td>
-	<td>//div[@id='buybox']/div/div[2]/div/div/div[2]/button</td>
-	<td></td>
-</tr>
-<tr>
-	<td>click</td>
-	<td>id=withoutwarranty</td>
-	<td></td>
-</tr>
-<tr>
-	<td>click</td>
-	<td>id=navegaCarrinho</td>
-	<td></td>
-</tr>
-<tr>
-	<td>clickAndWait</td>
-	<td>css=span.label-minicart-buttom</td>
+	<td>pause</td>
+	<td>4000</td>
 	<td></td>
 </tr>
 <tr>
 	<td>verifyText</td>
 	<td>link=Smart TV LED HD 32&quot; LG 32LJ600B com Conversor Digital 2 HDMI 1 USB WebOS 3.5 Wi-Fi Integrado - Energia Elétrica - Bivolt</td>
-	<td> Smart TV LED HD 32&quot; LG 32LJ600B com Conversor Digital 2 HDMI 1 USB WebOS 3.5 Wi-Fi Integrado - Energia Elétrica - Bivolt</td>
+	<td>Smart TV LED HD 32&quot; LG 32LJ600B com Conversor Digital 2 HDMI 1 USB WebOS 3.5 Wi-Fi Integrado - Energia Elétrica - Bivolt</td>
 </tr>
 <tr>
 	<td>clickAndWait</td>
